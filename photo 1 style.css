@@ -1,0 +1,145 @@
+  body {
+    background-color: #D0CDB1;
+  }
+  img {
+    max-width: 100%;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #112650;
+
+    
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 15px;
+    font-family: 'Aldrich', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .place-1 {
+  background-color: #173558;
+  color: #A03D2B;
+ } 
+ .place-2 {
+  background-color: #2A4C68;
+  color: #BF5B2B;
+ }
+ .place-3 {
+  background-color: #396479;
+  color: #C98741;
+ }
+ .place-4 {
+  background-color: #3C8693;
+  color: #E6A645;
+ }
+ .place-5 {
+  background-color: #7BA7A0;
+  color: #E7B764;
+ }
+ .place-6 {
+  background-color: #E7EAC8;
+  color: #E7C78E;
+ }
+ .place-7 {
+  background-color: #E7C78E;
+  color: #E7EAC8
+ }
+ .place-8 {
+  background-color: #E7B764;
+  color: #7BA7A0;
+ }
+ .place-9 {
+  background-color: #E6A645;
+  color: #3C8693;
+ }
+ .place-10 {
+  background-color: #C98741;
+  color: #396479;
+ }
+ .place-11 {
+  background-color: #BF5B2B;
+  color: #2A4C68;
+ }
+ .place-12 {
+  background-color: #A03D2B;
+  color: #173558;
+ }
+.title {
+  background-color: #2A4C68;
+  color: #BF5B2B;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 48px;
+  width:300px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 350px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  
+}
+
+  .row {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column .frame {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+   margin-left: 90%;
+   position: relative;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(217, 217, 217, .8);
+    opacity: 0;
+    transition: opacity 500ms;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Aldrich', sans-serif;
+    color: #2A4C68;
+  }
+  .frame:hover .caption{
+    opacity: 1;
+  }
