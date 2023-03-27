@@ -73,14 +73,14 @@
   color: #173558;
  }
 .title {
-  background-color: #173558;
-  color: #A03D2B;
+  background-color: #2A4C68;
+  color: #BF5B2B;
   font-family: 'Aldrich', sans-serif;
   font-size: 48px;
-  width:670px;
+  width:300px;
   height: 50px;
   margin-top: 50px;
-
+  
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 50px;
@@ -138,7 +138,7 @@
     padding-left: 10px;
     padding-top: 10px;
     font-family: 'Aldrich', sans-serif;
-    color: #173558;
+    color: #2A4C68;
   }
   .frame:hover .caption{
     opacity: 1;

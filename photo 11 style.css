@@ -1,4 +1,4 @@
-  body {
+body {
     background-color: #D0CDB1;
   }
   img {
@@ -73,11 +73,11 @@
   color: #173558;
  }
 .title {
-  background-color: #173558;
-  color: #A03D2B;
+  background-color: #BF5B2B;
+  color: #2A4C68;
   font-family: 'Aldrich', sans-serif;
   font-size: 48px;
-  width:670px;
+  width:390px;
   height: 50px;
   margin-top: 50px;
 
@@ -138,7 +138,7 @@
     padding-left: 10px;
     padding-top: 10px;
     font-family: 'Aldrich', sans-serif;
-    color: #173558;
+    color: #BF5B2B;
   }
   .frame:hover .caption{
     opacity: 1;
