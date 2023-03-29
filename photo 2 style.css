@@ -86,6 +86,9 @@
   padding-left: 50px;
   
 }
+audio { 
+  display: none 
+}
 
   .row {
     margin-top: 50px;
