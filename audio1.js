@@ -71,3 +71,18 @@ beach13Frame.addEventListener('mouseenter', function() {
 beach13Frame.addEventListener('mouseleave', function() {
   beach13Audio.pause()
 })
+
+
+
+const xoxoFrame = document.getElementById('xoxoframe')
+const xoxoAudio = document.getElementById('xoxoaudio')
+
+xoxoFrame.addEventListener('mouseenter', function() {
+  // Add the line below if you want the audio to start from the beginning everytime you play
+ xoxoAudio.currentTime = 0
+  xoxoAudio.play()
+})
+
+xoxoFrame.addEventListener('mouseleave', function() {
+  xoxoAudio.pause()
+})
