@@ -1,3 +1,8 @@
+
+
+
+
+
 const beach2Frame = document.getElementById('beach2frame')
 const beach2Audio = document.getElementById('beach2audio')
 
@@ -72,6 +77,23 @@ beach13Frame.addEventListener('mouseleave', function() {
   beach13Audio.pause()
 })
 
+const cvs7Frame = document.getElementById('cvs7frame')
+const cvs7Audio = document.getElementById('cvs7audio')
+
+cvs7Frame.addEventListener('mouseenter', function() {
+  // Add the line below if you want the audio to start from the beginning everytime you play
+ cvs7Audio.currentTime = 0
+  cvs7Audio.play()
+})
+
+cvs7Frame.addEventListener('mouseleave', function() {
+  cvs7Audio.pause()
+})
+
+
+
+
+
 
 
 const xoxoFrame = document.getElementById('xoxoframe')
@@ -86,3 +108,5 @@ xoxoFrame.addEventListener('mouseenter', function() {
 xoxoFrame.addEventListener('mouseleave', function() {
   xoxoAudio.pause()
 })
+
+

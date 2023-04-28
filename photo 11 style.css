@@ -1,5 +1,5 @@
 body {
-    background-color: #D0CDB1;
+    background-color: #552f13;
   }
   img {
     max-width: 100%;
@@ -7,7 +7,7 @@ body {
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: #112650;
+    background-color: #231b16;
 
     
   }
@@ -24,57 +24,57 @@ body {
     justify-content: center;
     align-items: center;
   }
- .place-1 {
-  background-color: #173558;
-  color: #A03D2B;
- } 
- .place-2 {
-  background-color: #2A4C68;
-  color: #BF5B2B;
- }
- .place-3 {
-  background-color: #396479;
-  color: #C98741;
- }
- .place-4 {
-  background-color: #3C8693;
-  color: #E6A645;
- }
- .place-5 {
-  background-color: #7BA7A0;
-  color: #E7B764;
- }
- .place-6 {
-  background-color: #E7EAC8;
-  color: #E7C78E;
- }
- .place-7 {
-  background-color: #E7C78E;
-  color: #E7EAC8;
- }
- .place-8 {
-  background-color: #E7B764;
-  color: #7BA7A0;
- }
- .place-9 {
-  background-color: #E6A645;
-  color: #3C8693;
- }
- .place-10 {
-  background-color: #C98741;
-  color: #396479;
- }
- .place-11 {
-  background-color: #BF5B2B;
-  color: #2A4C68;
- }
- .place-12 {
-  background-color: #A03D2B;
-  color: #173558;
- }
+  .place-1 {
+    background-color: #9c6240;
+    color: #231b16;
+   } 
+   .place-2 {
+    background-color: #552f13;
+    color: #1c1d12;
+   }
+   .place-3 {
+    background-color: #a4a49c;
+    color: #604b37;
+   }
+   .place-4 {
+    background-color: #975b2b;
+    color: #af8e72;
+   }
+   .place-5 {
+    background-color: #536878;
+    color: #dacabc;
+   }
+   .place-6 {
+    background-color: #4f5248;
+    color: #858764;
+   }
+   .place-7 {
+    background-color: #858764;
+    color: #4f5248;
+   }
+   .place-8 {
+    background-color: #dacabc;
+    color: #536878;
+   }
+   .place-9 {
+    background-color: #af8e72;
+    color: #975b2b;
+   }
+   .place-10 {
+    background-color: #604b37;
+    color: #a4a49c;
+   }
+   .place-11 {
+    background-color: #1c1d12;
+    color: #552f13;
+   }
+   .place-12 {
+    background-color: #231b16;
+    color: #9c6240;
+   }
 .title {
-  background-color: #BF5B2B;
-  color: #2A4C68;
+  background-color: #231b16;
+  color: #552f13;
   font-family: 'Aldrich', sans-serif;
   font-size: 48px;
   width:390px;
@@ -132,13 +132,15 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(217, 217, 217, .8);
+    background-color: rgba(85, 47, 19, .8);
     opacity: 0;
     transition: opacity 500ms;
-    padding-left: 10px;
+    padding-left: 2px;
     padding-top: 10px;
     font-family: 'Aldrich', sans-serif;
-    color: #BF5B2B;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1c1d12;
   }
   .frame:hover .caption{
     opacity: 1;

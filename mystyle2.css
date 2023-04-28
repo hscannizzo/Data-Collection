@@ -1,9 +1,10 @@
-  body {
+body {
     background-color: #e6e4d8;
-    background-image: url("background.png");
+    background-image: url("background2.png");
     background-size: cover;
     background-repeat: no-repeat;
- 
+    margin-left: 0px;
+    margin-top: 0px;
   }
 
 
@@ -55,8 +56,8 @@ img:hover{
     margin-top: 4px;
 }
 .div-img8 {
-    margin-left:35px;
-    margin-top: -27px;
+    margin-left: -8px;
+    margin-top: 4px;
 }
 .div-img9 {
     margin-left:30px;
@@ -67,27 +68,27 @@ img:hover{
     margin-top: 18px;
 }
 .div-img11 {
-    margin-left:-450px;
-    margin-top: 580px;
+    margin-left:-430px;
+    margin-top: 598px;
 }
 
 .button1 {
-background-color:#141414;
-color:#B8B8B8;
-border-radius: 12px;
-padding: 32px 16px;
-font-size: 15px;
-font-family: 'Aldrich', sans-serif;
-float: right;
-margin-top: -1030px;
-}
-.button2 {
-    background-color:#231b16;
-    color:#9c6240;
+    background-color:#141414;
+    color:#B8B8B8;
     border-radius: 12px;
-    padding: 32px 55px;    
+    padding: 32px 16px;
     font-size: 15px;
     font-family: 'Aldrich', sans-serif;
     float: right;
-    margin-top: -900px;
-}
+    margin-top: -1030px;
+    }
+    .button2 {
+        background-color:#231b16;
+        color:#9c6240;
+        border-radius: 12px;
+        padding: 32px 55px;    
+        font-size: 15px;
+        font-family: 'Aldrich', sans-serif;
+        float: right;
+        margin-top: -900px;
+    }

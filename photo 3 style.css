@@ -1,5 +1,5 @@
 body {
-    background-color: #D0CDB1;
+    background-color: #4e4e4e;
   }
   img {
     max-width: 100%;
@@ -7,7 +7,7 @@ body {
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: #112650;
+    background-color: #D6D6D6;
 
     
   }
@@ -24,57 +24,57 @@ body {
     justify-content: center;
     align-items: center;
   }
- .place-1 {
-  background-color: #173558;
-  color: #A03D2B;
- } 
- .place-2 {
-  background-color: #2A4C68;
-  color: #BF5B2B;
- }
- .place-3 {
-  background-color: #396479;
-  color: #C98741;
- }
- .place-4 {
-  background-color: #3C8693;
-  color: #E6A645;
- }
- .place-5 {
-  background-color: #7BA7A0;
-  color: #E7B764;
- }
- .place-6 {
-  background-color: #E7EAC8;
-  color: #E7C78E;
- }
- .place-7 {
-  background-color: #E7C78E;
-  color: #E7EAC8;
- }
- .place-8 {
-  background-color: #E7B764;
-  color: #7BA7A0;
- }
- .place-9 {
-  background-color: #E6A645;
-  color: #3C8693;
- }
- .place-10 {
-  background-color: #C98741;
-  color: #396479;
- }
- .place-11 {
-  background-color: #BF5B2B;
-  color: #2A4C68;
- }
- .place-12 {
-  background-color: #A03D2B;
-  color: #173558;
- }
+  .place-1 {
+    background-color: #B8B8B8;
+    color: #141414;
+   } 
+   .place-2 {
+    background-color: #C2C2C2;
+    color: #333333;
+   }
+   .place-3 {
+    background-color: #D6D6D6;
+    color: #4e4e4e;
+   }
+   .place-4 {
+    background-color: #EBEBEB;
+    color: #707070;
+   }
+   .place-5 {
+    background-color: #F5F5F5;
+    color: #989898;
+   }
+   .place-6 {
+    background-color: #FFFFFF;
+    color: #adadad;
+   }
+   .place-7 {
+    background-color: #adadad;
+    color: #FFFFFF;
+   }
+   .place-8 {
+    background-color: #989898;
+    color: #F5F5F5;
+   }
+   .place-9 {
+    background-color: #707070;
+    color: #EBEBEB;
+   }
+   .place-10 {
+    background-color: #4e4e4e;
+    color: #D6D6D6;
+   }
+   .place-11 {
+    background-color: #333333;
+    color: #C2C2C2;
+   }
+   .place-12 {
+    background-color: #141414;
+    color: #B8B8B8;
+   }
 .title {
-  background-color: #396479;
-  color: #C98741;
+  background-color: #D6D6D6;
+  color: #4e4e4e;
   font-family: 'Aldrich', sans-serif;
   font-size: 48px;
   width:220px;
@@ -132,13 +132,15 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(217, 217, 217, .8);
+    background-color: rgba(78, 78, 78, .8);
     opacity: 0;
     transition: opacity 500ms;
-    padding-left: 10px;
+    padding-left: 2px;
     padding-top: 10px;
     font-family: 'Aldrich', sans-serif;
-    color: #396479;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D6D6D6;
   }
   .frame:hover .caption{
     opacity: 1;
